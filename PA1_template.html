@@ -211,7 +211,7 @@ library(ggplot2)</code></pre>
 </div>
 <div id="processtransform-the-data-if-necessary-into-a-format-suitable-for-your-analysis" class="section level3">
 <h3>2. Process/transform the data (if necessary) into a format suitable for your analysis</h3>
-<p>Adding two additional columns - activitytime (HH:MM format) and datetime (date + activitytime)</p>
+<p>Adding two additional columns - activitytime(HH:MM format) and datetime(date + activitytime)</p>
 <pre class="r"><code>activity &lt;- activity$interval %&gt;%
   str_pad(4, side= c(&quot;left&quot;), pad = &quot;0&quot;) %&gt;%
   strptime(format=&quot;%H%M&quot;) %&gt;%

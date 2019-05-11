@@ -26,7 +26,8 @@ activity <- read.csv("../activity.csv")
 ```
 
 ###2. Process/transform the data (if necessary) into a format suitable for your analysis
-Adding two additional columns - activitytime (HH:MM format) and datetime (date + activitytime)
+Adding two additional columns - activitytime(HH:MM format) and datetime(date + activitytime)
+
 
 ```r
 activity <- activity$interval %>%
