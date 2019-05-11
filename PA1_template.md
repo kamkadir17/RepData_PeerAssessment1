@@ -11,59 +11,10 @@ output:
 
 ```r
 library(dplyr)
-```
-
-```
-## Warning: package 'dplyr' was built under R version 3.5.2
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-```
-
-```
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 library(stringr)
-```
-
-```
-## Warning: package 'stringr' was built under R version 3.5.2
-```
-
-```r
 library(lubridate)
-```
-
-```
-## 
-## Attaching package: 'lubridate'
-```
-
-```
-## The following object is masked from 'package:base':
-## 
-##     date
-```
-
-```r
 library(timeDate)
 library(ggplot2)
-```
-
-```
-## Warning: package 'ggplot2' was built under R version 3.5.2
 ```
 
 ## Loading and preprocessing the data
